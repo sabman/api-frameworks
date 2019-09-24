@@ -159,7 +159,7 @@ fn main() -> std::io::Result<()> {
             //  other parsers *beside* json (for example CBOR, protobuf, xml), and allows
             //  an application to standardise on a single parser implementation.
             .service(web::resource("/add").route(web::post().to_async(index_add)))
-            .service(web::resource("/add/{name}").route(web::get().to_async(add)))
+            .service(web::resource("/add/{name}").route(web::post().to_async(add)))
     })
     .bind("127.0.0.1:8080")?
     .run()

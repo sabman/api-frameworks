@@ -1,12 +1,13 @@
 actix-web/target
 actix-web/.env
 
-falcon/.idea
-falcon/.venv
-falcon/.DS_Store
-falcon/.envrc
-falcon/.python-version
-falcon/.python-virtualenv
+falcon-api/.idea
+falcon-api/.venv
+falcon-api/.DS_Store
+falcon-api/.envrc
+falcon-api/.python-version
+falcon-api/.python-virtualenv
+falcon-api/.env
 
 __pycache__/
 *.py[cod]
