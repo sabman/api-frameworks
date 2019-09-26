@@ -1,5 +1,14 @@
 # api-frameworks
 
+## Using Docker Compose
+
+`docker-compose build`
+`docker-compose up`
+
+### Falcon-api migrations
+
+`docker exec -it <container-id> alembic upgrade head`
+
 ## Run actix-web
 
 1. Make .env file and provide DATABASE_URL

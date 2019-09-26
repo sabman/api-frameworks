@@ -6,14 +6,10 @@ import mimetypes
 import falcon
 import json
 
-from sqlalchemy import create_engine
-import psycopg2
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from dotenv import load_dotenv
-from pathlib import Path  # python3 only
-env_path = Path(__file__).parents[1] / '.env'
-print(env_path)
-load_dotenv(dotenv_path=env_path)
+from database.config import sqlalchemy_engine
 
 
 class Resource(object):
@@ -31,18 +27,8 @@ class Resource(object):
     def on_post(self, req, resp):
         name = req.get_param("name", required=True)
 
-        conn = psycopg2.connect(host=os.getenv("HOST"),
-                                port=os.getenv("PORT"),
-                                user=os.getenv("PG_USER"),
-                                password=os.getenv("PASSWORD"),
-                                database="api_frameworks")  # To remove slash
-
-        cursor = conn.cursor()
-        cursor.execute("INSERT INTO test_frameworks (test_data) VALUES(%s)",
-                       (name, ))
-        conn.commit()
-        cursor.close()
-        conn.close()
+        sqlalchemy_engine.execute(
+            "INSERT INTO falcon_user (username) VALUES(%s)", (name, ))
 
         resp.body = json.dumps({"response": "resource created"},
                                ensure_ascii=False)

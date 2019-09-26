@@ -9,5 +9,7 @@ falcon-api/.python-version
 falcon-api/.python-virtualenv
 falcon-api/.env
 
+postgres-data
+
 __pycache__/
 *.py[cod]

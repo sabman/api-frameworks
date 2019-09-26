@@ -1,0 +1,28 @@
+version: "3"
+services:
+  falcon-api:
+    build: falcon-api/.
+    container_name: falcon-api
+    links:
+      - db
+    depends_on:
+      - db
+    env_file:
+      - falcon-api/.env
+    ports:
+      - 5000:5000
+  db:
+    image: postgres
+    container_name: pd_db
+
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pass123
+      - POSTGRES_DB=api_frameworks
+    #   Maps port 54320 (localhost) to port 5432 on the container. You can change the ports to fix your needs.
+    ports:
+      - 5432:5432
+    #   Set a volume some that database is not lost after shutting down the container.
+    #   I used the name postgres-data but you can changed it to something else.
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
