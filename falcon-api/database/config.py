@@ -1,4 +1,5 @@
 import os
+from sqlalchemy import create_engine
 from dotenv import load_dotenv
 from pathlib import Path  # python3 only
 env_path = Path(__file__).parents[1] / '.env'
@@ -13,6 +14,4 @@ port = os.getenv("PORT")
 
 sqlalchemy_url = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
 
-# Alternative engine:
-from sqlalchemy import create_engine
 sqlalchemy_engine = create_engine(sqlalchemy_url)

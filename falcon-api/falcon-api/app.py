@@ -1,8 +1,8 @@
 import falcon
 
-from .user import Resource
+from .users import Resource
 
 api = application = falcon.API()
 
-user = Resource()
-api.add_route('/', user)
+users = Resource()
+api.add_route('/v1/users', users)
