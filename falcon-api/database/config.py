@@ -9,7 +9,7 @@ user = os.getenv("PG_USER")
 password = os.getenv("PASSWORD")
 host = os.getenv("HOST")
 database = os.getenv("PG_DATABASE")
-port = os.getenv("PORT")
+port = os.getenv("PG_PORT")
 
 # sqlalchemy_url = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
 sqlalchemy_url = f"postgres://{user}:{password}@{host}:{port}/{database}"
