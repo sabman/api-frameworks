@@ -13,5 +13,6 @@ port = os.getenv("PORT")
 
 # sqlalchemy_url = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
 sqlalchemy_url = f"postgres://{user}:{password}@{host}:{port}/{database}"
+print("sqlalchemy_url", sqlalchemy_url)
 
 sqlalchemy_engine = create_engine(sqlalchemy_url)
