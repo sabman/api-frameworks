@@ -5,7 +5,7 @@
 `docker-compose build`
 `docker-compose up`
 
-### Falcon-api migrations
+### Falcon-api migrations inside docker
 
 `docker exec -it <container-id> alembic upgrade head`
 
@@ -21,7 +21,15 @@
 
 ## Run Falcon App
 
-`gunicorn -b 0.0.0.0:7654 --reload falcon-api.app`
+`gunicorn -b 0.0.0.0:7654 --reload falcon_api.app`
+
+## Falcon migrations
+
+`alembic upgrade head`
+
+## Run falcon API tests
+
+`python -m unittest tests/tests.py`
 
 ## Calculate POST request time
 

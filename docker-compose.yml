@@ -19,10 +19,14 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=pass123
       - POSTGRES_DB=api_frameworks
-    #   Maps port 54320 (localhost) to port 5432 on the container. You can change the ports to fix your needs.
     ports:
       - 5432:5432
-    #   Set a volume some that database is not lost after shutting down the container.
-    #   I used the name postgres-data but you can changed it to something else.
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
+
+    nginx:
+      image: nginx:latest
+      container_name: docker-nginx
+      restart: always
+      ports:
+        - "80:80"
