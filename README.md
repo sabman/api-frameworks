@@ -40,3 +40,9 @@
 ### For Falcon
 
 `curl -s -o /dev/null -w "%{time_starttransfer}\n" -X POST 'http://0.0.0.0:7654/?name=addthistopostgres' -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' -H 'postman-token: 826c277b-8d10-6384-e0fb-424f57189422' 0.049232`
+
+# Heroku Falcon API
+
+Push only subtree `falcon-api` to heroku master <br>
+
+`git subtree push --prefix falcon-api heroku master`
