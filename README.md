@@ -46,3 +46,9 @@
 Push only subtree `falcon-api` to heroku master <br>
 
 `git subtree push --prefix falcon-api heroku master`
+
+# How to use Heroku Falcon API
+
+API URL: `https://falcon-restful-api.herokuapp.com/api/v1/metrics`
+request body type: `JSON(aplication/json)`
+sample body: `{ "metric_value": 11111111111111111, "model_id": 5555555555555555 }`
