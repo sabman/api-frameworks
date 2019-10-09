@@ -38,10 +38,19 @@ heroku config:set APP_ENV=live
 
 Create an user
 
-- Request
+- Request Localhost
 
 ```shell
 curl -XPOST http://localhost:5000/api/v1/users -H "Content-Type: application/json" -d '{
+ "email": "test1@gmail.com",
+ "password": "test1234"
+}'
+```
+
+- Request Production
+
+```shell
+curl -XPOST https://falcon-restful-api.herokuapp.com/api/v1/users -H "Content-Type: application/json" -d '{
  "email": "test1@gmail.com",
  "password": "test1234"
 }'
@@ -55,7 +64,16 @@ returns 201 Status Code
 
 Log in with email and password
 
-- Request
+- Request Localhost
+
+```shell
+curl -XGET https://falcon-restful-api.herokuapp.com/api/v1/user/sign_in -H "Content-Type: application/json" -d '{
+ "email": "test1@gmail.com",
+ "password": "test1234"
+}'
+```
+
+- Request Production
 
 ```shell
 curl -XGET http://localhost:5000/api/v1/user/sign_in -H "Content-Type: application/json" -d '{
@@ -79,6 +97,17 @@ Post Metric Data
 ```shell
 curl -X POST \
   http://localhost:5000/api/v1/metrics \
+  -H 'authorization: gAAAAABdnbuh48BlzYglrJYvzsYh_vpYM_rE5XWBC8SIo4L-lDVb_ujAGWpgOYWKUjojSAk8ZGGswP9YKWG8wwpUPDJcpzwLCw==' \
+  -H 'content-type: application/json' \
+  -d '{
+ "value": 666,
+ "model_ref": 666
+}'
+```
+
+```shell
+curl -X POST \
+  https://falcon-restful-api.herokuapp.com/api/v1/metrics \
   -H 'authorization: gAAAAABdnbuh48BlzYglrJYvzsYh_vpYM_rE5XWBC8SIo4L-lDVb_ujAGWpgOYWKUjojSAk8ZGGswP9YKWG8wwpUPDJcpzwLCw==' \
   -H 'content-type: application/json' \
   -d '{

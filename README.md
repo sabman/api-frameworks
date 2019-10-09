@@ -52,3 +52,60 @@ Push only subtree `falcon-api` to heroku master <br>
 API URL: `https://falcon-restful-api.herokuapp.com/api/v1/metrics`
 request body type: `JSON(aplication/json)`
 sample body: `{ "metric_value": 11111111111111111, "model_id": 5555555555555555 }`
+
+Create User
+
+- Request
+
+```shell
+curl -XPOST https://falcon-restful-api.herokuapp.com/api/v1/users -H "Content-Type: application/json" -d '{
+ "email": "test1@gmail.com",
+ "password": "test1234"
+}'
+```
+
+- Response
+
+```
+returns 201 Status Code
+```
+
+Login User
+
+- Request
+
+```shell
+curl -XGET https://falcon-restful-api.herokuapp.com/api/v1/user/sign_in -H "Content-Type: application/json" -d '{
+ "email": "test.user@gmail.com",
+ "password": "test1234"
+}'
+```
+
+- Response
+
+```json
+{
+  "token": "auth_token"
+}
+```
+
+Post Metric Data
+
+- Request
+
+```shell
+curl -X POST \
+  https://falcon-restful-api.herokuapp.com/api/v1/metrics \
+  -H 'authorization: auth_token' \
+  -H 'content-type: application/json' \
+  -d '{
+ "value": 666,
+ "model_ref": 666
+}'
+```
+
+- Response
+
+```
+returns 201 Status Code
+```
