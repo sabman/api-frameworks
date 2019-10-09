@@ -1,0 +1,6 @@
+venv
+.python-version
+.python-virtualenv
+.env
+__pycache__/
+*.py[cod]

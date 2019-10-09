@@ -1,14 +1,18 @@
 from logging.config import fileConfig
 
-from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
 
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from sqlalchemy import create_engine
+import os, sys, inspect
+currentdir = os.path.dirname(
+    os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+from app.config import DATABASE_URL, get_engine
+engine = get_engine(DATABASE_URL)
 
-from database.config import sqlalchemy_url, sqlalchemy_engine
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -41,9 +45,9 @@ def run_migrations_offline():
     script output.
 
     """
-    # url = config.get_main_option("sqlalchemy.url")
+    url = config.get_main_option("sqlalchemy.url")
     context.configure(
-        url=sqlalchemy_url,
+        url=DATABASE_URL,
         target_metadata=target_metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
@@ -60,7 +64,7 @@ def run_migrations_online():
     and associate a connection with the context.
 
     """
-    connectable = sqlalchemy_engine
+    connectable = engine
 
     with connectable.connect() as connection:
         context.configure(connection=connection,

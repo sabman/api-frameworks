@@ -1,2 +1,2 @@
 release: alembic upgrade head
-web: gunicorn falcon_api.app
+web: gunicorn app.main:application --log-file -

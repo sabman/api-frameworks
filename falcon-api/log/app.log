@@ -1,0 +1,143 @@
+[2019-10-06 23:20:26 +0500] [1037] [INFO] Connecting to database..
+[2019-10-06 23:20:26 +0500] [1037] [INFO] API Server is starting
+[2019-10-06 23:21:10 +0500] [1037] [DEBUG] Authorization: None
+[2019-10-06 23:22:07 +0500] [1037] [DEBUG] Authorization: None
+[2019-10-06 23:22:56 +0500] [1037] [DEBUG] Authorization: None
+[2019-10-06 23:23:59 +0500] [2282] [INFO] Connecting to database..
+[2019-10-06 23:23:59 +0500] [2282] [INFO] API Server is starting
+[2019-10-06 23:24:12 +0500] [2282] [DEBUG] Authorization: None
+[2019-10-06 23:24:30 +0500] [2282] [DEBUG] Authorization: None
+[2019-10-06 23:29:01 +0500] [4380] [INFO] Connecting to database..
+[2019-10-06 23:29:01 +0500] [4380] [INFO] API Server is starting
+[2019-10-06 23:29:16 +0500] [4492] [INFO] Connecting to database..
+[2019-10-06 23:29:16 +0500] [4492] [INFO] API Server is starting
+[2019-10-06 23:30:01 +0500] [4492] [DEBUG] Authorization: None
+[2019-10-06 23:30:13 +0500] [4492] [DEBUG] Authorization: None
+[2019-10-06 23:30:37 +0500] [4492] [DEBUG] Authorization: None
+[2019-10-06 23:31:53 +0500] [5454] [INFO] Connecting to database..
+[2019-10-06 23:31:53 +0500] [5454] [INFO] API Server is starting
+[2019-10-06 23:43:17 +0500] [5454] [DEBUG] Authorization: None
+[2019-10-06 23:43:56 +0500] [5454] [DEBUG] Authorization: None
+[2019-10-06 23:44:17 +0500] [5454] [DEBUG] Authorization: None
+[2019-10-06 23:44:30 +0500] [5454] [DEBUG] Authorization: None
+[2019-10-06 23:45:46 +0500] [8661] [INFO] Connecting to database..
+[2019-10-06 23:45:46 +0500] [8661] [INFO] API Server is starting
+[2019-10-06 23:45:55 +0500] [8661] [DEBUG] Authorization: None
+[2019-10-06 23:47:10 +0500] [8661] [DEBUG] Authorization: None
+[2019-10-06 23:50:59 +0500] [8661] [DEBUG] Authorization: None
+[2019-10-06 23:51:08 +0500] [8661] [DEBUG] Authorization: None
+[2019-10-06 23:54:38 +0500] [11785] [INFO] Connecting to database..
+[2019-10-06 23:54:38 +0500] [11785] [INFO] API Server is starting
+[2019-10-06 23:55:09 +0500] [11978] [INFO] Connecting to database..
+[2019-10-06 23:55:09 +0500] [11978] [INFO] API Server is starting
+[2019-10-06 23:55:24 +0500] [12099] [INFO] Connecting to database..
+[2019-10-06 23:55:24 +0500] [12099] [INFO] API Server is starting
+[2019-10-06 23:57:25 +0500] [12787] [INFO] Connecting to database..
+[2019-10-06 23:57:25 +0500] [12787] [INFO] API Server is starting
+[2019-10-06 23:57:40 +0500] [12893] [INFO] Connecting to database..
+[2019-10-06 23:57:40 +0500] [12893] [INFO] API Server is starting
+[2019-10-06 23:57:56 +0500] [12998] [INFO] Connecting to database..
+[2019-10-06 23:57:56 +0500] [12998] [INFO] API Server is starting
+[2019-10-06 23:58:11 +0500] [13103] [INFO] Connecting to database..
+[2019-10-06 23:58:11 +0500] [13103] [INFO] API Server is starting
+[2019-10-06 23:58:13 +0500] [13103] [DEBUG] Authorization: None
+[2019-10-06 23:58:22 +0500] [13103] [DEBUG] Authorization: None
+[2019-10-06 23:58:32 +0500] [13103] [DEBUG] Authorization: None
+[2019-10-06 23:58:39 +0500] [13103] [DEBUG] Authorization: None
+[2019-10-06 23:58:40 +0500] [13103] [DEBUG] Authorization: None
+[2019-10-06 23:59:26 +0500] [13529] [INFO] Connecting to database..
+[2019-10-06 23:59:26 +0500] [13529] [INFO] API Server is starting
+[2019-10-06 23:59:28 +0500] [13529] [DEBUG] Authorization: None
+[2019-10-06 23:59:30 +0500] [13529] [DEBUG] Authorization: None
+[2019-10-06 23:59:35 +0500] [13529] [DEBUG] Authorization: None
+[2019-10-07 00:00:02 +0500] [13752] [INFO] Connecting to database..
+[2019-10-07 00:00:02 +0500] [13752] [INFO] API Server is starting
+[2019-10-07 00:00:02 +0500] [13752] [DEBUG] Authorization: None
+[2019-10-07 00:00:20 +0500] [13752] [DEBUG] Authorization: None
+[2019-10-07 00:00:31 +0500] [13752] [DEBUG] Authorization: None
+[2019-10-07 00:00:42 +0500] [13752] [DEBUG] Authorization: None
+[2019-10-07 00:09:48 +0500] [13752] [DEBUG] Authorization: None
+[2019-10-07 00:10:21 +0500] [17865] [INFO] Connecting to database..
+[2019-10-07 00:10:21 +0500] [17865] [INFO] API Server is starting
+[2019-10-07 00:10:21 +0500] [17865] [DEBUG] Authorization: None
+[2019-10-07 00:10:35 +0500] [17865] [DEBUG] Authorization: None
+[2019-10-07 00:11:35 +0500] [18332] [INFO] Connecting to database..
+[2019-10-07 00:11:35 +0500] [18332] [INFO] API Server is starting
+[2019-10-07 00:12:00 +0500] [18332] [DEBUG] Authorization: None
+[2019-10-07 00:13:30 +0500] [19033] [INFO] Connecting to database..
+[2019-10-07 00:13:30 +0500] [19033] [INFO] API Server is starting
+[2019-10-07 00:20:01 +0500] [21319] [INFO] Connecting to database..
+[2019-10-07 00:20:01 +0500] [21319] [INFO] API Server is starting
+[2019-10-07 00:20:17 +0500] [21431] [INFO] Connecting to database..
+[2019-10-07 00:20:17 +0500] [21431] [INFO] API Server is starting
+[2019-10-07 00:20:32 +0500] [21550] [INFO] Connecting to database..
+[2019-10-07 00:21:54 +0500] [22054] [INFO] Connecting to database..
+[2019-10-07 00:22:07 +0500] [22149] [INFO] Connecting to database..
+[2019-10-07 00:22:25 +0500] [22266] [INFO] Connecting to database..
+[2019-10-07 00:22:25 +0500] [22266] [INFO] API Server is starting
+[2019-10-07 00:23:09 +0500] [22266] [DEBUG] Authorization: None
+[2019-10-07 00:23:40 +0500] [22684] [INFO] Connecting to database..
+[2019-10-07 00:23:40 +0500] [22684] [INFO] API Server is starting
+[2019-10-07 00:23:47 +0500] [22684] [DEBUG] Authorization: None
+[2019-10-07 00:24:02 +0500] [22825] [INFO] Connecting to database..
+[2019-10-07 00:24:02 +0500] [22825] [INFO] API Server is starting
+[2019-10-07 00:24:10 +0500] [22825] [DEBUG] Authorization: None
+[2019-10-07 00:24:40 +0500] [23056] [INFO] Connecting to database..
+[2019-10-07 00:24:40 +0500] [23056] [INFO] API Server is starting
+[2019-10-07 00:24:45 +0500] [23056] [DEBUG] Authorization: None
+[2019-10-07 00:25:16 +0500] [23263] [INFO] Connecting to database..
+[2019-10-07 00:25:16 +0500] [23263] [INFO] API Server is starting
+[2019-10-07 00:25:17 +0500] [23263] [DEBUG] Authorization: None
+[2019-10-07 00:25:27 +0500] [23263] [DEBUG] Authorization: None
+[2019-10-07 00:25:39 +0500] [23263] [DEBUG] Authorization: None
+[2019-10-07 00:25:54 +0500] [23486] [INFO] Connecting to database..
+[2019-10-07 00:25:55 +0500] [23486] [INFO] API Server is starting
+[2019-10-07 00:26:06 +0500] [23578] [INFO] Connecting to database..
+[2019-10-07 00:26:06 +0500] [23578] [INFO] API Server is starting
+[2019-10-07 00:26:06 +0500] [23578] [DEBUG] Authorization: None
+[2019-10-07 00:28:52 +0500] [24488] [INFO] Connecting to database..
+[2019-10-07 00:28:52 +0500] [24488] [INFO] API Server is starting
+[2019-10-07 00:29:22 +0500] [24674] [INFO] Connecting to database..
+[2019-10-07 00:29:22 +0500] [24674] [INFO] API Server is starting
+[2019-10-07 00:30:38 +0500] [25132] [INFO] Connecting to database..
+[2019-10-07 00:30:38 +0500] [25132] [INFO] API Server is starting
+[2019-10-07 00:30:45 +0500] [25183] [INFO] Connecting to database..
+[2019-10-07 00:30:45 +0500] [25183] [INFO] API Server is starting
+[2019-10-07 00:30:45 +0500] [25183] [DEBUG] Authorization: None
+[2019-10-07 00:31:31 +0500] [25478] [INFO] Connecting to database..
+[2019-10-07 00:31:31 +0500] [25478] [INFO] API Server is starting
+[2019-10-07 00:31:39 +0500] [25543] [INFO] Connecting to database..
+[2019-10-07 00:31:39 +0500] [25543] [INFO] API Server is starting
+[2019-10-07 00:31:39 +0500] [25543] [DEBUG] Authorization: None
+[2019-10-07 00:31:48 +0500] [25606] [INFO] Connecting to database..
+[2019-10-07 00:31:48 +0500] [25606] [INFO] API Server is starting
+[2019-10-07 00:31:48 +0500] [25606] [DEBUG] Authorization: None
+[2019-10-07 00:32:04 +0500] [25708] [INFO] Connecting to database..
+[2019-10-07 00:32:04 +0500] [25708] [INFO] API Server is starting
+[2019-10-07 00:32:18 +0500] [25708] [DEBUG] Authorization: None
+[2019-10-07 00:32:35 +0500] [25708] [DEBUG] Authorization: None
+[2019-10-07 00:33:21 +0500] [26156] [INFO] Connecting to database..
+[2019-10-07 00:33:21 +0500] [26156] [INFO] API Server is starting
+[2019-10-07 00:33:51 +0500] [26351] [INFO] Connecting to database..
+[2019-10-07 00:33:51 +0500] [26351] [INFO] API Server is starting
+[2019-10-07 00:34:07 +0500] [26450] [INFO] Connecting to database..
+[2019-10-07 00:34:07 +0500] [26450] [INFO] API Server is starting
+[2019-10-07 00:34:22 +0500] [26566] [INFO] Connecting to database..
+[2019-10-07 00:34:22 +0500] [26566] [INFO] API Server is starting
+[2019-10-07 00:34:35 +0500] [26566] [DEBUG] Authorization: None
+[2019-10-07 00:34:48 +0500] [26566] [DEBUG] Authorization: None
+[2019-10-07 00:35:12 +0500] [26861] [INFO] Connecting to database..
+[2019-10-07 00:35:12 +0500] [26861] [INFO] API Server is starting
+[2019-10-07 00:35:12 +0500] [26861] [DEBUG] Authorization: None
+[2019-10-07 00:35:28 +0500] [26962] [INFO] Connecting to database..
+[2019-10-07 00:35:28 +0500] [26962] [INFO] API Server is starting
+[2019-10-07 00:35:41 +0500] [26962] [DEBUG] Authorization: None
+[2019-10-07 00:35:49 +0500] [26962] [DEBUG] Authorization: None
+[2019-10-07 00:35:54 +0500] [26962] [DEBUG] Authorization: None
+[2019-10-07 00:36:18 +0500] [26962] [DEBUG] Authorization: None
+[2019-10-07 00:36:34 +0500] [27367] [INFO] Connecting to database..
+[2019-10-07 00:36:34 +0500] [27367] [INFO] API Server is starting
+[2019-10-07 00:36:42 +0500] [27367] [DEBUG] Authorization: None
+[2019-10-07 02:29:44 +0500] [18469] [INFO] Connecting to database..
+[2019-10-07 02:29:44 +0500] [18469] [INFO] API Server is starting
+[2019-10-07 02:29:48 +0500] [18568] [INFO] Connecting to database..
