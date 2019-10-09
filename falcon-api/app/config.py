@@ -22,11 +22,11 @@ TOKEN_EXPIRES = 3600
 
 APP_ENV = os.getenv("APP_ENV") or "local"  # or 'live' to load live
 
-user = os.getenv("user")
-password = os.getenv("password")
-POSTGRES_HOST = os.getenv("host")
-database = os.getenv("database")
-port = os.getenv("port")
+user = os.getenv("PG_USER")
+password = os.getenv("PASSWORD")
+POSTGRES_HOST = os.getenv("HOST")
+database = os.getenv("PG_DATABASE")
+port = os.getenv("PG_PORT")
 
 DATABASE_URL = f"postgresql+psycopg2://{user}:{password}@{POSTGRES_HOST}:{port}/{database}"
 
